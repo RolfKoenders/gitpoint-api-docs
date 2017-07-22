@@ -1,12 +1,11 @@
 
-# GitPoint API
+# GitPoint API Documentation
 
 ## Introduction
-
 **Note: ** These are the first thoughts, a more indpeth explanation per component / working will be added asap. 
 
 This document describes a proposal for a GitPoint API. This API will be used by the [GitPoint app](https://github.com/gitpoint/git-point). 
-The first feature of this API will be a way to retrieve a list of the currently [trending repositories on github](https://github.com/trending) since the Github API does not provide a api this.  
+The first feature of this API will be a way to retrieve a list of the currently [trending repositories on github](https://github.com/trending) since the Github API does not provide a api this.
 
 ## Overview
 The following diagram shows a overview of the several components it will include.
@@ -37,4 +36,4 @@ API documentation in swagger.
 *TODO*
 
 ## Contribute
-Don't hesitate to open an issue if you have a question or an idea. 
+Don't hesitate to open an issue if you have a question or an idea. You can also find me in the [Gitter of GitPoint](https://gitter.im/git-point/)
