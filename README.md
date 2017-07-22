@@ -33,7 +33,7 @@ This is a worker which will scrape github based on a cronjob pattern. The data i
 Since its not just one component we have to deploy a nice solution will be to deploy it on a Kubernetes cluster. I haven't check if it will fit on a free tier or not. Otherwise we could search for other options. 
 
 ## API Documentation 
-API documentation in swagger.
+API documentation.
 
 ### Trending API
 *TODO*
