@@ -25,7 +25,7 @@ The API documentation can also be found in this document.
 ### Datastore
 We need to save the data in some database. I haven't made a descision yet if we go for a relational database or for a NoSQL database. Although i think a NoSQL will be perfect for our needs. 
 
-### Trending Scraper
+### [Trending Scraper](https://github.com/RolfKoenders/gitpoint-api-trending-scraper)
 This is a worker which will scrape github based on a cronjob pattern. The data it scrapes will be formatted to our model and stored in the datastore. 
 
 ## Deployment
