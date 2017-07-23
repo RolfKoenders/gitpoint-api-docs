@@ -23,8 +23,9 @@ Tasks regarding the datastore.
 ### Scraper Worker
 Task list regarding the scraper worker which will collect all the data for the 'trending' module of the api.
 
-- [ ] Setup repository/project.
-- [ ] Research (Proof of Concept) scraping of github trending.
+- [X] Setup repository/project. [Link](https://github.com/RolfKoenders/gitpoint-api-trending-scraper)
+- [X] Research (Proof of Concept) scraping of github trending. (Using [cheerio](https://github.com/cheeriojs/cheerio))
+- [ ] Scrape all the possible data.
 - [ ] Setup data model for the collected data to store in the database.
 
 ## Deployment
