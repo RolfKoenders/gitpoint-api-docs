@@ -16,7 +16,7 @@ The tasks regarding the API layer.
 ## Datastore
 Tasks regarding the datastore.
 
-- [ ] Research which database to use.
+- [X] Research which database to use. (Fow now we go with MongoDB)
 - [ ] Use own deployed database or a existing service.
 - [ ] Document database models.
 
@@ -25,8 +25,14 @@ Task list regarding the scraper worker which will collect all the data for the '
 
 - [X] Setup repository/project. [Link](https://github.com/RolfKoenders/gitpoint-api-trending-scraper)
 - [X] Research (Proof of Concept) scraping of github trending. (Using [cheerio](https://github.com/cheeriojs/cheerio))
-- [ ] Scrape all the possible data.
-- [ ] Setup data model for the collected data to store in the database.
+- [X] Scrape all the possible data.
+- [X] Setup data model for the collected data to store in the database.
+- [X] Insert data to the database.
+- [ ] Make configurable using environment variables
+- [ ] Use [Cron](https://www.npmjs.com/package/cron) for the cronjob pattern
+- [ ] Dockerize
+- [ ] Add tests
+- [ ] Update documentation
 
 ## Deployment
 All the tasks regarding deployment, envrionments etc..
