@@ -32,7 +32,7 @@ Task list regarding the scraper worker which will collect all the data for the '
 - [X] Use [Cron](https://www.npmjs.com/package/cron) for the cronjob pattern
 - [X] Dockerize
 - [ ] Add tests
-- [ ] Update documentation
+- [X] Update documentation
 
 ## Deployment
 All the tasks regarding deployment, envrionments etc..
