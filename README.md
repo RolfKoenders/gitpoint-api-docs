@@ -20,7 +20,7 @@ The following diagram shows a overview of the several components it will include
 ### Nginx
 The API will be exposed behind a nginx layer which will reverse proxy the requests to the API. This approach makes it easy to later on add more API's or switch versions. We could also use it for some simple round-robin load balancing. 
 
-### API
+### [API](https://github.com/RolfKoenders/gitpoint-api)
 The actual API which will retrieve and handle the requests coming in from the phone. 
 The API documentation can also be found in this document. 
 
