@@ -7,10 +7,9 @@ This list can be used to see the progress.
 ## API
 The tasks regarding the API layer. 
 
-- [ ] Setup repository/project.
-- [ ] Setup initial project files/structure.
-- [ ] Scrape github and format the collected data.
-- [ ] Store data in the datastore. 
+- [X] Setup repository/project.
+- [X] Setup initial project files/structure.
+- [ ] Create endpoint to return trending repos.
 - [ ] Create API documentation.
 
 ## Datastore
