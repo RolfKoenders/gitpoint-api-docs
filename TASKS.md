@@ -28,9 +28,9 @@ Task list regarding the scraper worker which will collect all the data for the '
 - [X] Scrape all the possible data.
 - [X] Setup data model for the collected data to store in the database.
 - [X] Insert data to the database.
-- [ ] Make configurable using environment variables
-- [ ] Use [Cron](https://www.npmjs.com/package/cron) for the cronjob pattern
-- [ ] Dockerize
+- [X] Make configurable using environment variables
+- [X] Use [Cron](https://www.npmjs.com/package/cron) for the cronjob pattern
+- [X] Dockerize
 - [ ] Add tests
 - [ ] Update documentation
 
