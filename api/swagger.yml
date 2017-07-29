@@ -1,0 +1,68 @@
+swagger: "2.0"
+
+info:
+  description: "This is the API documentation for the [GitPoint - API](https://github.com/RolfKoenders/gitpoint-api)."
+  version: "0.1.0"
+  title: "GitPoint API swagger"
+
+tags:
+  - name: trending
+    description: "Everything trending related."
+  - name: utils
+    description: "Utility endpoints"
+
+schemes:
+  - "http"
+
+paths:
+  /trending/today:
+    get:
+      tags:
+        - "trending"
+      summary: "Get the trending repositories of today"
+      description: ""
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "All the trending repositories of 'today'"
+          schema:
+            $ref: "#/definitions/TrendingDay"
+        204:
+          description: "No data available"
+          schema:
+            type: "object"
+            properties:
+              code:
+                type: "string"
+              message:
+                type: "string"
+
+  /health:
+    get:
+      tags:
+        - "utils"
+      summary: "Health check endpoint"
+      description: ""
+      responses:
+        200:
+          description: "Application is running"
+
+definitions:
+  TrendingDay:
+    type: "object"
+    properties:
+      position:
+        type: "integer"
+      namespace:
+        type: "string"
+      name:
+        type: "string"
+      language:
+        type: "string"
+      totalStars:
+        type: "integer"
+      starsToday:
+        type: "integer"
+      forks:
+        type: "integer"
