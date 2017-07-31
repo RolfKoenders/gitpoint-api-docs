@@ -20,7 +20,7 @@ The tasks regarding the API layer.
 Tasks regarding the datastore.
 
 - [X] Research which database to use. (Fow now we go with MongoDB)
-- [ ] Use own deployed database or a existing service.
+- [X] Use own deployed database or a existing service.
 - [ ] Document database models.
 
 ### Scraper Worker
@@ -40,5 +40,7 @@ Task list regarding the scraper worker which will collect all the data for the '
 ## Deployment
 All the tasks regarding deployment, envrionments etc..
 
-- [ ] Setup dev/test environment.
+- [X] Setup Live (prd) environment.
+- [X] Automate deployment using Ansible.
+- [ ] Setup seperate dev/test environment.
 - [ ] Setup CI/CD to test environment.
