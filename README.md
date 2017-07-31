@@ -4,7 +4,7 @@
 ### This document is WIP.
 These are the first thoughts, a more indpeth explanation per component / working will be added asap. 
 
-A task list can be found [here](tasks.md).
+A task list can be found [here](TASKS.md).
 
 ## Introduction
 **Note:** These are the first thoughts, a more indpeth explanation per component / working will be added asap. 
