@@ -28,7 +28,7 @@ paths:
           description: "All the trending repositories of 'today'"
           schema:
             $ref: "#/definitions/TrendingDay"
-        204:
+        404:
           description: "No data available"
           schema:
             type: "object"
